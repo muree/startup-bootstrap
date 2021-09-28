@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+:root {
+  --primary-color: #3285f1;
+  --head-bold-color: #030fb4;
+  --body-style-color: #a0cae5;
+}
+
+ul li {
+  list-style: none;
+  display: inline-block;
+  line-height: 100px;
+}
+ul li a {
+  display: block;
+  text-decoration: none;
+  font-size: 1.5rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: blue;
+  padding: 0 20px;
+}
+ul li a:hover {
+  color: brown;
+}
+.landing-pg {
+  padding-top: 10%;
+  background-color: aqua;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.landing-pg h2 {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.8rem;
+  padding-top: 20%;
+  padding-bottom: 10%;
+}
+.landing-pg p {
+  text-align: center;
+}
+.about {
+  height: 120vh;
+}
+.about h1 {
+  text-align: center;
+  padding-top: 5%;
+  color: var(--head-bold-color);
+}
+.about h4 {
+  text-align: center;
+  font-family: monospace;
+}
+.about p {
+  color: rgb(61, 60, 60);
+  font-size: 1.4rem;
+}
+.contact-card h4 {
+  text-align: center;
+  font-size: 4rem;
+  color: var(--head-bold-color);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.contact-card p {
+  text-align: center;
+  font-size: 1.2rem;
+  color: grey;
+}
+.background-us {
+  background-image: url(/img/background-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact-card {
+  margin: 10%;
+}
+.map {
+  display: block;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+.contact-body {
+  background-image: url(/img/bruce-mars-8YG31Xn4dSw-unsplash.jpg);
+  background-repeat: no-repeat;
+}
+footer {
+  height: 60px;
+}
+footer p {
+  font-size: 1.6rem;
+  padding: 15px;
+  color: black;
+}
+.services {
+  background-color: burlywood;
+}
+.service-card {
+  padding-top: 30px;
+  height: 70vh;
+  display: block;
+  align-content: center;
+}
