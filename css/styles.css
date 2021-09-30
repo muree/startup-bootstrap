@@ -29,6 +29,7 @@ ul li a:hover {
   background-color: aqua;
   margin-left: auto;
   margin-right: auto;
+  min-width: 0;
 }
 
 .landing-pg h2 {
@@ -41,6 +42,7 @@ ul li a:hover {
 .landing-pg p {
   text-align: center;
 }
+
 .about {
   height: 120vh;
 }
@@ -89,7 +91,7 @@ ul li a:hover {
   background-repeat: no-repeat;
 }
 footer {
-  height: 60px;
+  height: auto;
 }
 footer p {
   font-size: 1.6rem;
@@ -98,10 +100,12 @@ footer p {
 }
 .services {
   background-color: burlywood;
+  height: auto;
 }
+
 .service-card {
-  padding-top: 30px;
-  height: 70vh;
-  display: block;
+  padding-top: 20px;
+
   align-content: center;
+  height: auto;
 }
