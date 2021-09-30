@@ -101,8 +101,11 @@ footer p {
 .services {
   background-color: burlywood;
   height: auto;
+  padding-bottom: 10rem;
 }
-
+.services img {
+  display: block;
+}
 .service-card {
   padding-top: 20px;
 
